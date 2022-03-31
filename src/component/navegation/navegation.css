@@ -1,0 +1,74 @@
+
+div.navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.dropdown-item{
+    width: fit-content;
+}
+
+div.account {
+    width: 20%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.userdiv{
+    margin-right:5rem;
+}
+
+.user{
+   width: 2.5rem;
+}
+
+.userProfilePhoto, .userIcon {
+    margin-top: 1vh;
+    background-position: 50%;
+    width: 4em;
+    height: 4em;
+    background-size: cover;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.logo{
+    width: 8rem;
+    padding-left: 1rem; 
+}
+
+.navheader{
+    margin-top: 1rem;
+    display: flex;
+    align-content: center;
+}
+nav a, .signOut, .welcome{
+    align-self: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    align-self: center;
+    padding: 0 1rem;
+    margin-bottom:0 !important;
+}
+
+li{
+    list-style-type:none;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: black;
+}
+
+.nav-link {
+    color:black !important;
+}
+
+nav a:hover{
+    color:#3ec4d6
+}
+
+.signOut:hover{
+    color:#3ec4d6
+}

@@ -1,0 +1,82 @@
+div.footerContainer {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    /* min-height: 55vh; */
+    background-size: cover;
+    background-position:center ;
+  }
+  
+  
+  footer .phraseNav .nameContainer h3 {
+    padding-top: 2rem;
+      color: white;
+      font-size: 7vmin;
+      font-family: "Italianno",cursive !important;
+      text-align: center;
+  
+  }
+  
+  footer p, footer span, footer a {
+    color:white;
+    font-family: 'Ubuntu', sans-serif !important;
+  }
+  
+  footer span {
+    padding-bottom: .5rem;
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 1rem;
+  }
+  
+  footer nav {
+    padding-right: 2rem; 
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  footer a {
+    text-decoration: none;
+    padding-top: 0.5rem;
+    color: white;
+  }
+  
+  
+  div.socialMedia{
+    align-self: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  div.nameContainer {
+    width: 30%;
+    
+  }
+  
+  
+  
+  div.bilboPhrase{
+    padding: .5rem 2rem;
+    text-align: justify;
+    
+  } 
+  
+  div.finalContent{
+    align-self:center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  div.phraseNav {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  

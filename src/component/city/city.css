@@ -1,0 +1,230 @@
+
+.itinerariesBox{
+    padding: 2rem;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#999696;
+}
+
+.itineraryBody{
+    width: 90%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 19px 6px rgba(146, 146, 146, 0.39);
+    padding: 3vh 2vw;
+    margin-bottom: 5vh;
+}
+
+.itineraryHead{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.itineraryPhoto{
+    width: 22vw;
+    height: 60vh;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.itineraryData{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.itineraryAuthor{
+    display: flex;
+    align-items: center;
+}
+
+.authorPhoto{
+    min-width: 8vw;
+    height: 16vh;
+    border-radius: 50%;
+}
+
+.authorName{
+    margin-left: 2vw;
+    font-weight: 700;
+    font-size: 5vmin;
+}
+
+.itineraryTitle {
+    display: flex;
+    align-items: center;
+}
+
+.itineraryTitle h2, .commentsTittle h4, .activitiesHeader h2 {
+    font-size: 2.5em;
+    padding: 1vh 2vw;
+    margin-top: 2vh;
+    color:#999696;
+}
+.signUpTittle h2, .signInTittle h2{
+    font-weight: bold;
+    color:#cfcfcf;
+    font-size: 7vmin;
+}
+
+.signUpTittle h4, .signInTittle h4 {
+    font-size: 3vmin;
+}
+
+.likes{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.likes p{
+    font-weight: bolder;
+    margin: 0 0 0 .5vw!important;
+    font-size: 1.4em;
+}
+
+.itineraryDescrip{
+    font-size: 1.3em;
+}
+
+.heartIconRed{
+    color:red;
+    font-size: 1.8em;
+    cursor: pointer; 
+
+}
+.hashtags{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hashtags p {
+    color: rgb(88, 88, 88);
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.hashtags p:hover {
+    color:#2ad7dd;
+
+}
+
+.itineraryIcons{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.itinerarybutton{
+    display:flex;
+    justify-content:center;
+}
+.itinerarybutton button, .formButtons button{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.6s;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+       
+.itinerarybutton button:hover {
+    box-shadow: inset 300px 0 0 0 white;
+    border:2px solid white;
+    color: black;
+} 
+
+.itineraryTime {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+}
+.adventure{
+    order: last;
+    width: 20vw;
+    height: 25vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.itineraryPrice{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+}
+.itineraryPrice img{
+    width: 1.5em;
+}
+
+.itineraryPrice img {
+    margin-left: .2em;
+}
+
+.itineraryTime img{
+    width:1.3em;
+}
+
+.underConstruction{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.underConstructionBox {
+    padding: 1rem;
+}
+
+.underConstructionBox img {
+    padding:1rem;
+    max-width:50vw;
+}
+
+.noItineraries{
+    width: 100%;
+    min-height:110vh;
+    background-size:cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: 0px 0px 19px 6px rgba(146, 146, 146, 0.39);
+}
+
+/* swiper */
+#carousel{
+    border: 2px solid red;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid red;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}

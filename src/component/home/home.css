@@ -1,0 +1,194 @@
+
+.cityHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+
+
+.cityHeader h1{
+    font-size: 11vmin;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.384);
+    color: rgb(221, 216, 216);
+}
+
+
+
+.containerHeader, .cityHeader{
+    width: 100%;
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+
+
+}
+.mainVideo {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+div.heroContainer {
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+div.heroContainer h1{
+    margin-top: 4rem;
+    font-family: 'Italianno', cursive;
+    font-weight: 550;
+    font-size: 20vmin;
+}
+
+div.heroContainer h3{
+    font-family: 'Zilla Slab Highlight', cursive;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 4vmin;
+}
+
+div.heroButtons button{
+
+ padding: 1rem;
+ background-color: black;
+ color: white;
+ font-weight: bold;
+ box-shadow: inset 0 0 0 0 white;
+ transition: ease-out 0.6s;
+ border: 2px solid black;
+ border-radius: 5px;
+ cursor: pointer;
+
+}
+
+div.heroButtons button:hover {
+    box-shadow: inset 300px 0 0 0 white;
+    border:2px solid white;
+    color: black;
+}
+
+
+/* cards */
+
+
+
+.cardContainer {
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+
+
+} 
+
+.card {
+    width: 20%;
+    min-height: 40vh;
+    border-radius: 50px;
+    box-shadow: 0px 0px 19px 6px rgba(146, 146, 146, 0.39);
+    display: flex;
+    justify-content: center;
+}
+.cardphoto {
+    align-self: center;
+    width:60%;
+    height:20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+
+.cardText {
+    color:rgb(100, 99, 99);
+    padding: 1rem;
+    text-align: center;
+    font-size: 3.5vmin;
+    font-weight: bold;
+}
+
+/* carousel */
+.carouselTitles, .titles, .titlesTips, .underConstructionBox, .signUpTittle, .signInTittle, .activitiesHeader{
+    padding: 1rem;
+    font-family:'Ubuntu', sans-serif;
+}
+
+.carouselTitles h2, .titles h2, .titlesTips h2, .inputContainer h2, .underConstructionBox h4{
+    padding-top: 3rem;
+    font-weight: bold;
+    color:#dad8d8;
+    font-size: 3rem;
+}
+
+.textDeco {
+    padding-left: rem;
+    width: 7rem;
+    height: .5rem;
+    background-color: #3fced3;
+}
+
+.carousel {
+    align-self: center;
+    min-height: 100vh;
+}
+
+
+
+.cityPhoto{
+    display: flex;
+    justify-content: center;
+    width:35vw;
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 19px 6px rgba(146, 146, 146, 0.39);
+}
+
+
+.photoTitle, .caption {
+    font-family: 'Zilla Slab Highlight', cursive;
+    align-self: center;
+    color: whitesmoke;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.384);
+    font-weight: bold;
+    font-size: 6vmin;
+}
+
+.caption p{
+    color: rgb(221, 216, 216);
+}
+
+.sr-only {
+    display: none;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: black;
+    width: 2rem;
+    padding: 1.5rem;
+    border-radius: 100px;
+}
+
+.carouselTitles span, .titles span, .titlesTips span {
+    font-weight: normal;
+}
+
+
+.mapContainer {
+    width: 100%;
+    min-height: 90vh;
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}

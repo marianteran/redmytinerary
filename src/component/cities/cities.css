@@ -1,0 +1,179 @@
+
+.cardImg{
+    width: 5rem;
+} 
+
+.citiesdiv{
+    min-height: 100vh;
+
+}
+
+.citiesdiv h3{
+    padding-top: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 5vmin;
+    text-align: center;
+}
+.citiesdiv{
+    
+    padding: 2rem;
+}
+
+
+.cardimg{
+    width:100%;
+    height:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    border-radius: 20px;
+    overflow:hidden;
+    box-shadow: 0px 0px 19px 6px rgba(146, 146, 146, 0.39);
+   
+   
+}
+
+.cardimg h4{
+    padding-left: 1rem;
+    font-family: 'Zilla Slab Highlight', cursive;
+    align-self: flex-end;
+    color: whitesmoke;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.384);
+    font-size: 4vmin;
+}
+
+
+.citydescription {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position:relative;
+    top:17vh;
+    padding:1rem ;
+    font-size: 3vmin;
+    text-align: justify;
+    transition:all 400ms cubic-bezier(0.5,0,0,0.5) ;
+   
+}
+
+.citydescription h4 {
+    font-weight: bold;
+}
+
+.cardimg:hover .citydescription{
+    background-color:rgba(245, 245, 245, 0.5);
+    top:0;
+}
+
+.inputFilter {
+    padding:.5rem;
+    width: 30vw;
+}
+
+.inputContainer {
+    padding: 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* cardddddd continent */
+.portfolio__container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  margin: auto;
+
+}
+
+
+.flip-container {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  perspective: 1000px; 
+  margin: 1rem;
+  
+
+}
+
+.portfolio__card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 1px 2px 17px 0px  rgb(5, 133, 160);
+  border-radius: 2rem;
+  padding: 0 !important;
+
+  background: transparent;
+  
+}
+
+
+.flip-container:hover .portfolio__card {
+  transform: rotateY(180deg);
+}
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00c3ff;
+  background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);
+  background: linear-gradient(to right, #ffff1c, #00c3ff);
+
+
+}
+.front {
+
+border-radius: 1rem;
+
+  
+}
+
+.front img{
+    width: 100%;
+    height: 100%;
+    
+border-radius: 1rem;
+    object-fit: cover;
+}
+
+
+.back {
+  display: flex;
+  flex-direction: column;
+  transform: rotateY(180deg);
+  border-radius: 1rem;
+  border: 5px solid  rgb(9, 98,130);;
+}
+
+
+.back p{
+  text-align: justify;
+  padding: 1% 3% 1% 3%;
+  font-size: 12px;
+}
+
+
+.back h4{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.back h6{
+  text-align: left !important;
+}
